@@ -786,28 +786,28 @@
 
             <!--video-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">video</a>
+                <a class="navbar-brand" href="#">{{ texts[lang]['video'] }}</a>
             </nav>
             <div class="row">
                 <div class="form-group col-md-4">
                     <label>video1</label>
                     <br>
                     <input type="checkbox" id="video1Edge" v-model="video1Edge" true-value="true" false-value="false">
-                    <label for="video1Edge">Line sensor is edge</label>
+                    <label for="video1Edge">{{ texts[lang]['lineSensorIsEdge'] }}</label>
                 </div>
 
                 <div class="form-group col-md-4">
                     <label>video2</label>
                     <br>
                     <input type="checkbox" id="video2Edge" v-model="video2Edge" true-value="true" false-value="false">
-                    <label for="video2Edge">Line sensor is edge</label>
+                    <label for="video2Edge">{{ texts[lang]['lineSensorIsEdge'] }}</label>
                 </div>
 
                 <div class="form-group col-md-4">
                     <label>usb-camera</label>
                     <br>
                     <input type="checkbox" id="usbCameraEdge" v-model="usbCameraEdge" true-value="true" false-value="false">
-                    <label for="usbCameraEdge">Line sensor is edge</label>
+                    <label for="usbCameraEdge">{{ texts[lang]['lineSensorIsEdge'] }}</label>
                 </div>
             </div>
 
